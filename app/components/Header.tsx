@@ -23,7 +23,7 @@ export default function Header() {
           {/* 移动端：头像浮动到右侧，文本与 Chip 在左侧环绕 */}
           <div className="md:hidden relative float-right ml-3 mb-2 w-[96px] aspect-[3/4]">
             <Image
-              src="/avatar.JPG"
+              src="/avatar.jpeg"
               alt="头像"
               fill
               sizes="(max-width: 767px) 96px"
@@ -77,7 +77,7 @@ export default function Header() {
         <div className="hidden md:block flex-shrink-0 self-start md:self-auto">
           <div className="relative w-[120px] lg:w-[160px] aspect-[3/4]">
             <Image
-              src="/avatar.JPG"
+              src="/avatar.jpeg"
               alt="头像"
               fill
               sizes="(min-width: 768px) 160px, 120px"

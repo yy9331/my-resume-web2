@@ -21,7 +21,7 @@ export default function WordButton() {
     // 加载头像图片
     let avatarImage: ImageRun | null = null;
     try {
-      const imageResponse = await fetch('/avatar.JPG');
+      const imageResponse = await fetch('/avatar.jpeg');
       const imageBlob = await imageResponse.blob();
       const imageArrayBuffer = await imageBlob.arrayBuffer();
       
