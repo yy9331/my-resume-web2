@@ -163,8 +163,8 @@ export const resumeDataEn: ResumeDataI18n = {
       stack: ["Frontend Architecture", "Team Management", "Component Packaging", "Technical Sharing", "Project Management"]
     },
     {
-      period: "2019.09 – 2021.07",
-      company: "Chinasoft International Co., Ltd. · HSBC Private Banking PAYMENT Project Team",
+      period: "2020.06 – 2021.07",
+      company: "Chinasoft International Co., Ltd. · HSBC Private Banking CHANEL Project Team",
       role: "Frontend Developer",
       bullets: [
         "Refactored legacy modules and improved code quality via modular design",
@@ -173,7 +173,16 @@ export const resumeDataEn: ResumeDataI18n = {
         "Optimized critical UI paths (search/rendering), noticeably faster and smoother",
         "Collaborated with backend for interfaces and integration; supported engineering rollout"
       ],
-      stack: ["React", "React Hooks", "Redux", "ECharts", "Webpack"]
+      stack: ["React", "React Hooks", "Redux", "ECharts", "Webpack", "BDD Automated Testing(Jest & Enzyme)"]
+    },
+    {
+      period: "2019.09 – 2020.05",
+      company: "Wistron Software (Wuhan) Co., Ltd. · HSBC Commercial Banking GTRF Project Team",
+      role: "Frontend Developer",
+      bullets: [
+        "Developed commercial banking business modules using React and Redux, leveraged Antd Design component library to improve development efficiency"
+      ],
+      stack: ["React", "Redux", "Antd Design", "Webpack", "Sass"]
     },
     {
       period: "2018.12 – 2019.09",
@@ -431,6 +440,7 @@ export const resumeDataZh: ResumeDataI18n = {
       company: "广州市友谊对外服务有限公司",
       role: "国泰航空 CXA 项目组 前端开发",
       bullets: [
+        "(离职原因: 项目到期被劝退, 持有协商解除劳动合同通知书)", 
         "负责国泰航空 CXA 项目前端开发，构建可复用的前端组件库，提升团队开发效率 30%+",
         "结合 AI 工具进行代码重构与优化，将现有组件性能提升 25%，代码可维护性显著改善",
         "独立完成复杂业务组件重构，与产品、设计团队高效协作，确保项目按时交付",
@@ -444,6 +454,7 @@ export const resumeDataZh: ResumeDataI18n = {
       company: "信必优（中国）有限公司 · 汇丰银行 投资银行 MSS-FICC-MKTY 项目组",
       role: "全栈开发",
       bullets: [
+        "(离职原因: 项目无资金被裁)", 
         "前后端独立开发至上线；多方案对比并沟通最优解",
         "将需求逐步插件化；封装 Export Excel / Date Picker 等插件",
         "优化与封装减少约40%重复代码；提升效率",
@@ -483,8 +494,8 @@ export const resumeDataZh: ResumeDataI18n = {
       stack: ["前端架构", "团队管理", "组件封装", "技术分享", "项目管理"]
     },
     {
-      period: "2019.09 – 2021.07",
-      company: "中软国际有限公司 · 汇丰银行 私人银行 PAYMENT 项目组",
+      period: "2020.06 – 2021.07",
+      company: "中软国际有限公司 · 汇丰银行 私人银行 CHANEL 项目组",
       role: "前端开发",
       bullets: [
         "对旧模块进行重构与模块化改造，提升代码质量",
@@ -494,6 +505,15 @@ export const resumeDataZh: ResumeDataI18n = {
         "配合后端接口联调，支持工程化上线与迭代"
       ],
       stack: ["React", "React Hooks", "Redux", "ECharts", "Webpack", "BDD Automated Testing(Jest & Enzyme)"]
+    },
+    {
+      period: "2019.09 – 2020.05",
+      company: "纬创软件(武汉)有限公司 · 汇丰银行 商业银行 GTRF 项目组",
+      role: "前端开发",
+      bullets: [
+        "基于React和Redux开发商业银行业务功能模块，使用Antd Design组件库提升开发效率"
+      ],
+      stack: ["React", "Redux", "Antd Design", "Webpack", "Sass"]
     },
     {
       period: "2018.12 – 2019.09",
