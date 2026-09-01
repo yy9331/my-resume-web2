@@ -57,7 +57,7 @@ export const resumeDataEn: ResumeDataI18n = {
     location: "Guangzhou, China"
   },
   links: [
-    { label: "Tech Blog", url: "https://zyzy.info" },
+    { label: "Tech Blog", url: "https://yu-yi.net" },
     { label: "GitHub", url: "https://github.com/yy9331" }
   ],
   summary: [
@@ -72,6 +72,17 @@ export const resumeDataEn: ResumeDataI18n = {
     "Engineering accumulation: Multiple reusable components, significantly improving team delivery efficiency"
   ],
   experiences: [
+    {
+      period: "2026.01 – Present",
+      company: "Beyondsoft Technology Co., Ltd. Guangzhou Branch · DBS Bank MWT Department",
+      role: "Front-end Engineer",
+      bullets: [
+        "On-site at DBS Bank MWT department, responsible for front-end development of fund trading related business on both web and mobile platforms",
+        "Deeply involved in fund transaction process optimization, ensuring consistency and high performance of user experience across platforms",
+        "Collaborated with cross-functional teams to rapidly respond to business needs, supporting iterative updates of core functions such as fund subscription, redemption, and holding inquiries"
+      ],
+      stack: ["React", "TypeScript", "Next.js", "Tailwind CSS", "Hybrid App", "FinTech"]
+    },
     {
       period: "2024.06 – 2025.09",
       company: "Rain Protocol",
@@ -233,7 +244,7 @@ export const resumeDataEn: ResumeDataI18n = {
       title: "Decentralized Exchange Pyro Wing DEX (Sepolia)",
       summary: "End-to-end by myself: factory contracts, routing, frontend/backends, liquidity and 24h stats.",
       links: [
-        { label: "DEX", url: "https://pws.zyzy.info" },
+        { label: "DEX", url: "https://pws.yu-yi.net" },
         { label: "Contract Repo", url: "https://github.com/yy9331/pyro-wing-swap-v2" },
         { label: "Frontend/Backend Repo", url: "https://github.com/yy9331/pyro-wing-swap-fe" }
       ],
@@ -253,7 +264,7 @@ export const resumeDataEn: ResumeDataI18n = {
       title: "Decentralized Staking Pyro Wing Stake (Sepolia)",
       summary: "YY Token staking; includes solidity contracts and frontend integration.",
       links: [
-        { label: "Stake", url: "http://stake.zyzy.info" },
+        { label: "Stake", url: "http://stake.yu-yi.net" },
         { label: "Solidity Repo", url: "https://github.com/yy9331/yy-eth-stake" }
       ],
       details: [
@@ -283,7 +294,7 @@ export const resumeDataEn: ResumeDataI18n = {
       title: "Personal Tech Blog (with Login Auth, Comments & MCP Service)",
       summary: "Record daily tech insights; self-developed MCP service integrated with AI; supports Markdown editing and comments.",
       links: [
-        { label: "Website", url: "https://zyzy.info" },
+        { label: "Website", url: "https://yu-yi.net" },
         { label: "MCP Service Repo", url: "https://github.com/yy9331/blog-mcp-server" }
       ],
       stack: ["Next.js", "Postgres", "Vercel", "Supabase Auth"]
@@ -385,7 +396,7 @@ export const resumeDataZh: ResumeDataI18n = {
     location: "籍贯汕头，现居广州"
   },
   links: [
-    { label: "技术博客", url: "https://zyzy.info" },
+    { label: "技术博客", url: "https://yu-yi.net" },
     { label: "GitHub", url: "https://github.com/yy9331" }
   ],
   summary: [
@@ -400,6 +411,17 @@ export const resumeDataZh: ResumeDataI18n = {
     "工程化沉淀：多处封装复用，显著提升团队交付效率"
   ],
   experiences: [
+    {
+      period: "2026.01 – 至今",
+      company: "博彦科技股份有限公司广州分公司 · 星展银行 MWT 部门",
+      role: "前端工程师",
+      bullets: [
+        "驻场星展银行 MWT 部门，负责银行网页端及移动端基金买卖相关业务的前端开发",
+        "深度参与基金交易流程优化，确保网页端与移动端用户体验的一致性与高性能表现",
+        "与跨职能团队协作，快速响应业务需求，支持基金申购、赎回及持仓查询等核心功能迭代"
+      ],
+      stack: ["React", "TypeScript", "Next.js", "Tailwind CSS", "Hybrid App", "金融业务"]
+    },
     {
       period: "2024.06 – 2025.09",
       company: "Rain Protocol",
@@ -565,7 +587,7 @@ export const resumeDataZh: ResumeDataI18n = {
       title: "去中心化交易所 Pyro Wing DEX（Sepolia）",
       summary: "从工厂合约、路由到前后端一体化，自主完成，提供流动性与 24h 交易统计。",
       links: [
-        { label: "DEX", url: "https://pws.zyzy.info" },
+        { label: "DEX", url: "https://pws.yu-yi.net" },
         { label: "合约仓库", url: "https://github.com/yy9331/pyro-wing-swap-v2" },
         { label: "前后端仓库", url: "https://github.com/yy9331/pyro-wing-swap-fe" }
       ],
@@ -586,7 +608,7 @@ export const resumeDataZh: ResumeDataI18n = {
       title: "去中心化抵押 Pyro Wing Stake（Sepolia）",
       summary: "YY Token 抵押挖矿；包含 Solidity 合约与前端集成，自主完成。",
       links: [
-        { label: "Stake", url: "http://stake.zyzy.info" },
+        { label: "Stake", url: "http://stake.yu-yi.net" },
         { label: "Solidity 仓库", url: "https://github.com/yy9331/yy-eth-stake" }
       ],
       details: [
@@ -616,7 +638,7 @@ export const resumeDataZh: ResumeDataI18n = {
       title: "个人技术博客（含登录鉴权与评论、MCP 服务）",
       summary: "记录技术日常；自研 MCP 服务集成 AI；支持 Markdown 编辑与评论。",
       links: [
-        { label: "站点", url: "https://zyzy.info" },
+        { label: "站点", url: "https://yu-yi.net" },
         { label: "MCP 服务仓库", url: "https://github.com/yy9331/blog-mcp-server" }
       ],
       stack: ["Next.js", "Postgres", "Vercel", "Supabase Auth"]
