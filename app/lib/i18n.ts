@@ -77,11 +77,13 @@ export const resumeDataEn: ResumeDataI18n = {
       company: "Beyondsoft Technology Co., Ltd. Guangzhou Branch · DBS Bank MWT Department",
       role: "Front-end Engineer",
       bullets: [
-        "On-site at DBS Bank MWT department, responsible for front-end development of fund trading related business on both web and mobile platforms",
-        "Deeply involved in fund transaction process optimization, ensuring consistency and high performance of user experience across platforms",
-        "Collaborated with cross-functional teams to rapidly respond to business needs, supporting iterative updates of core functions such as fund subscription, redemption, and holding inquiries"
+        "Focused on front-end development for the wealth management and fund trading module of DBS DIGIbank (Web & Mobile)",
+        "Implemented micro-frontend architecture using Rsbuild to enhance modularity and deployment efficiency",
+        "Developed core trading functions including fund subscription, redemption, RSP (Regular Savings Plan), and real-time asset inquiry",
+        "Collaborated closely with Java backend teams for seamless API integration and data consistency",
+        "Designed intelligent fund category recommendation systems and dynamic display components to optimize wealth management UX"
       ],
-      stack: ["React", "TypeScript", "Next.js", "Tailwind CSS", "Hybrid App", "FinTech"]
+      stack: ["React", "TypeScript", "Rsbuild", "Micro-frontends", "Tailwind CSS", "Hybrid App", "FinTech"]
     },
     {
       period: "2024.06 – 2025.09",
@@ -302,6 +304,18 @@ export const resumeDataEn: ResumeDataI18n = {
   ],
   projects: [
     {
+      title: "DBS DIGIbank - Wealth Management (Fund Trading Module)",
+      period: "2026.01 – Present",
+      summary: "Responsible for front-end development of the wealth management and fund trading module in DBS DIGIbank, utilizing micro-frontend architecture.",
+      stack: ["React", "TypeScript", "Rsbuild", "Micro-frontends", "Tailwind CSS", "Hybrid App", "FinTech"],
+      details: [
+        "Front-end Focus: Specialized in front-end architecture and UI implementation, collaborating with Java backend services.",
+        "Micro-frontend Architecture: Leveraged Rsbuild for building a scalable and modular micro-frontend system.",
+        "Core Fund Operations: Developed subscription, redemption, RSP (Regular Savings Plan), and modification modules.",
+        "Wealth Services: Built fund category recommendations, intelligent asset inquiry, and order tracking displays."
+      ]
+    },
+    {
       title: "Rain.fi - Solana Decentralized Lending Protocol",
       period: "2024.05 – 2025.09",
       summary: "A Solana-based decentralized lending protocol focusing on token and NFT lending.",
@@ -416,11 +430,13 @@ export const resumeDataZh: ResumeDataI18n = {
       company: "博彦科技股份有限公司广州分公司 · 星展银行 MWT 部门",
       role: "前端工程师",
       bullets: [
-        "驻场星展银行 MWT 部门，负责银行网页端及移动端基金买卖相关业务的前端开发",
-        "深度参与基金交易流程优化，确保网页端与移动端用户体验的一致性与高性能表现",
-        "与跨职能团队协作，快速响应业务需求，支持基金申购、赎回及持仓查询等核心功能迭代"
+        "专注于星展银行 DIGIbank 财富管理客服端的基金交易模块开发（网页端及移动端）",
+        "采用 Rsbuild 构建微前端架构，提升模块化程度与团队交付效率",
+        "实现基金核心交易功能，包括申购、赎回、定投 (RSP)、定投修改及实时持仓查询",
+        "与后端 Java 技术团队紧密协作，完成高质量的接口对接与数据交互",
+        "构建基金分类推荐及智能化展示功能，深度优化财富管理板块的用户投资体验"
       ],
-      stack: ["React", "TypeScript", "Next.js", "Tailwind CSS", "Hybrid App", "金融业务"]
+      stack: ["React", "TypeScript", "Rsbuild", "微前端", "Tailwind CSS", "Hybrid App", "金融业务"]
     },
     {
       period: "2024.06 – 2025.09",
@@ -645,6 +661,18 @@ export const resumeDataZh: ResumeDataI18n = {
     }
   ],
   projects: [
+    {
+      title: "星展银行 DIGIbank - 财富管理（基金交易模块）",
+      period: "2026.01 – 至今",
+      summary: "负责星展银行 DIGIbank 财富管理端的基金交易模块前端开发，采用微前端架构实现。",
+      stack: ["React", "TypeScript", "Rsbuild", "微前端", "Tailwind CSS", "Hybrid App", "金融业务"],
+      details: [
+        "前端聚焦：专注于前端架构设计与 UI 实现，与 Java 后端服务团队紧密配合。",
+        "微前端架构：基于 Rsbuild 构建可扩展的微前端体系，实现业务模块的独立开发与部署。",
+        "基金核心业务：开发申购、赎回、定投 (RSP) 设置及定投修改等核心功能模块。",
+        "理财服务：构建基金分类推荐、智能化持仓查询及订单追踪展示。"
+      ]
+    },
     {
       title: "Rain.fi - Solana 去中心化借贷协议",
       period: "2024.05 – 2025.09",
